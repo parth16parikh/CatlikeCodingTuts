@@ -12,11 +12,12 @@ public class PersistentStorage : MonoBehaviour {
         savePath = Path.Combine(Application.persistentDataPath, "saveFile");
 	}
 	
-    public void Save(PersistableObject o) {
+    public void Save(PersistableObject o, int version) {
         using (
             BinaryWriter writer = new BinaryWriter(File.Open(savePath,FileMode.Create))
         ) 
         {
+            writer.Write(-version);
             o.Save(new GameDataWriter(writer));
         }
     }
@@ -26,7 +27,7 @@ public class PersistentStorage : MonoBehaviour {
             BinaryReader reader = new BinaryReader(File.Open(savePath, FileMode.Open))
         )
         {
-            o.Load(new GameDataReader(reader));
+            o.Load(new GameDataReader(reader, -reader.ReadInt32()));
         }
     }
 }

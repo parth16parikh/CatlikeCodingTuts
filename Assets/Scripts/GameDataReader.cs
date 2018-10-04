@@ -6,9 +6,14 @@ using System.IO;
 public class GameDataReader {
 
     private BinaryReader reader;
+    public int Version {
+        get;
+        set;
+    }
 
-    public GameDataReader(BinaryReader reader) {
-        this.reader = reader;   
+    public GameDataReader(BinaryReader reader, int version) {
+        this.reader = reader;
+        this.Version = version;
     }
 
     public int ReadInt() {
@@ -33,6 +38,16 @@ public class GameDataReader {
         value.y = reader.ReadSingle();
         value.z = reader.ReadSingle();
         value.w = reader.ReadSingle();
+        return value;
+    }
+
+    public Color ReadColor()
+    {
+        Color value;
+        value.r = reader.ReadSingle();
+        value.g = reader.ReadSingle();
+        value.b = reader.ReadSingle();
+        value.a = reader.ReadSingle();
         return value;
     }
 }
