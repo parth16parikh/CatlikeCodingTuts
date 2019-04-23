@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Object Management/Persisting Objects/Scenes/Persisting Objects.unity
+    guid: 79f9c6ea631426a44865b5ba41b783a3
+  - enabled: 1
+    path: Assets/Object Management/Persisting Objects/Scenes/Level 1.unity
+    guid: e5ec4cc746dc841028152aa72e307c59
+  - enabled: 1
+    path: Assets/Object Management/Persisting Objects/Scenes/Level 2.unity
+    guid: b0c3f9d445dde40568cbe84621777c5f
+  - enabled: 1
+    path: Assets/Object Management/Persisting Objects/Scenes/Level 3.unity
+    guid: 6a08e437b23b94fb1aa5963af67b2021
   m_configObjects: {}

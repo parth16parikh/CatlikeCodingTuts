@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Object Management/Persisting Objects/Persisting Objects.unity
+  isLoaded: 1
+  isActive: 1

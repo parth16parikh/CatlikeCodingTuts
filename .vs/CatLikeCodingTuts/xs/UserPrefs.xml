@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D9D26A3F-1541-BDE2-D696-DED0402CF138}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Object Management/Persisting Objects/Scripts/CompositeSpawnZone.cs">
+    <Files>
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/GameDataWriter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/ShapeFactory.cs" Line="33" Column="54" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/Game.cs" Line="23" Column="12" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/SpawnZone.cs" Line="5" Column="22" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/SphereSpawnZone.cs" Line="11" Column="20" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/GameLevel.cs" Line="13" Column="56" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/CubeSpawnZone.cs" Line="22" Column="54" />
+      <File FileName="Assets/Object Management/Persisting Objects/Scripts/CompositeSpawnZone.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
